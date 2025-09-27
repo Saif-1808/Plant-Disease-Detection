@@ -3,6 +3,11 @@ import tensorflow as tf
 import numpy as np
 
 
+st.markdown(
+    '<meta name="google-site-verification" content="googleef4a1cd74045045a">',
+    unsafe_allow_html=True
+)
+
 #Tensorflow Model Prediction
 def model_prediction(test_image):
     model = tf.keras.models.load_model("trained_plant_disease_model.keras")
